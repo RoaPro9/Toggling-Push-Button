@@ -42,7 +42,7 @@ void setup()
   pinMode(LED, OUTPUT);
 }
 ```
->> Now, the digital pins are correctly set up.
+> Now, the digital pins are correctly set up.
 
 Create Two loops:
 In the loop function, we start by reading the button’s state with the digitalRead() function and to store it inside a new local variable. 
@@ -65,6 +65,5 @@ Then we can compare the current state to the last one (from the previous executi
  
   }
 ```
-### Start Simulation
+> Now you Start Simulation
 
-//
