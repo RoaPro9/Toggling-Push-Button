@@ -65,5 +65,5 @@ Then we can compare the current state to the last one (from the previous executi
  
   }
 ```
-> Now you Start Simulation
+> Now you Start Simulation.
 
