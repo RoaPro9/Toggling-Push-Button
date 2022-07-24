@@ -47,10 +47,10 @@ void setup()
 Create Two loops:
 In the loop function, we start by reading the button’s state with the digitalRead() function and to store it inside a new local variable. 
 Then we can compare the current state to the last one (from the previous execution of the loop function). 4 possibilities here:
-1- LOW -> LOW (last -> current).
-2- LOW -> HIGH.
-3- HIGH -> LOW.
-4- HIGH -> HIGH.
+- LOW -> LOW (last -> current).
+- LOW -> HIGH.
+- HIGH -> LOW.
+- HIGH -> HIGH.
 
 ```void loop()
 {   byte buttonState =  digitalRead(BUTTON);
@@ -67,5 +67,4 @@ Then we can compare the current state to the last one (from the previous executi
 ```
 ### Start Simulation
 
-
-https://user-images.githubusercontent.com/70070721/179669291-327d7499-586b-44f8-a552-71891ebd7db1.mp4
+//
