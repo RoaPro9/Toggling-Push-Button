@@ -21,7 +21,7 @@ Controlling a servo position using a potentiometer :
 Create servo object to control a servo
 We need to create 2 global variables, to keep the state of the button and the LED. In the loop we’ll use those variables to compare the previous state to the new state.
 
-```
+```C++
 
 unsigned const LED = 8;
 unsigned const BUTTON = 7;
@@ -35,7 +35,7 @@ The setup function is executed once at the beginning of the program. This is the
 - OUTPUT for the LED, as we’re going to write data to it.
 - INPUT for the push button, as we’re going to read data from it.
 
-```
+```C++
 void setup()
 {
   pinMode(BUTTON, INPUT);
@@ -52,7 +52,8 @@ Then we can compare the current state to the last one (from the previous executi
 - HIGH -> LOW.
 - HIGH -> HIGH.
 
-```void loop()
+```C++
+void loop()
 {   byte buttonState =  digitalRead(BUTTON);
  
   if (buttonState != lastButtonState) {
