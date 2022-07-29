@@ -1,6 +1,6 @@
 # Toggling-Push-Button
 In this Arduino tutorial I will show you how to turn an LED on and off with a push button.
-Whenever you press and release the button, it controls the flow of the LED. As a result, the LED will turn on the first time you release the button. It will switch off the second time., and so on.
+Whenever you press and release the button, it controls the flow of the LED. As a result, the LED will turn on the first time you release the button. It will switch off the second time, and so on.
 ## Arduino circuit with an LED and a button:
 To build the circuit you will need those components:
 ### Hardware Required
